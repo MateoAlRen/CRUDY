@@ -22,7 +22,7 @@ Dependiendo de la ruta elegida en el nivel anterior, el sistema muestra una simu
 
 Este nivel es una reacción directa a la elección anterior.
 
-![Image](https://github.com/user-attachments/assets/8901bbc1-f372-4445-8bce-01ffe2d3ae34)
+![Image](https://github.com/user-attachments/assets/e46faea9-1eb0-4f9e-b1a3-82e15cf9a9e4)
 
 **Hecho por: Mateo Algarin Rendon**
 
@@ -87,7 +87,7 @@ El sistema usa JavaScript para:
 
 Este nivel pone a prueba la atención del jugador y su capacidad para entender secuencias lógicas básicas, con una interfaz visualmente coherente con el estilo *Matrix* que CRUDY ha manejado desde el inicio.
 
-![Image](https://github.com/user-attachments/assets/ce098f0c-a856-45fc-b015-541bd95d5d24)
+![Image](https://github.com/user-attachments/assets/d8f609fb-7914-4e23-af92-0c1c96514517)
 
 **Hecho por: Juan David Barrera**
 
