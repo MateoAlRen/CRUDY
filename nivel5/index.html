@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUDY - Nivel 5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Nivel 5: Juicio Final</h1>
+
+    <!-- Aquí van las preguntas -->
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. ¿Qué tipo de estructura permite decisiones múltiples?</p>
+        <label><input type="radio" name="q1" value="if else" /> if-else</label><br>
+        <label><input type="radio" name="q1" value="switch" /> switch</label><br>
+        <label><input type="radio" name="q1" value="while" /> while</label>
+      </div>
+
+      <div class="question">
+        <p>2. ¿Qué palabra se usa para declarar una constante en JS?</p>
+        <label><input type="radio" name="q2" value="var" /> var</label><br>
+        <label><input type="radio" name="q2" value="let" /> let</label><br>
+        <label><input type="radio" name="q2" value="const" /> const</label>
+      </div>
+
+      <div class="question">
+        <p>3. ¿Qué método se usa para recorrer un array?</p>
+        <label><input type="radio" name="q3" value="forEach" /> forEach()</label><br>
+        <label><input type="radio" name="q3" value="toString" /> toString()</label><br>
+        <label><input type="radio" name="q3" value="push" /> push()</label>
+      </div>
+
+      <!-- Botón para enviar respuestas -->
+      <button type="button" id="checkBtn">Ver resultados</button>
+    </form>
+
+    <!-- Aquí aparece el resultado -->
+    <div id="result"></div>
+  </div>
+
+  <!-- Carga el JS después del HTML -->
+  <script src="script.js" defer></script>
+</body>
+</html>
