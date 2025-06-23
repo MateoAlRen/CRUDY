@@ -1,0 +1,50 @@
+/* Estilo general del body: fondo oscuro, texto neón, y centrado completo en pantalla */
+body {
+  background-color: #0b0c10;
+  color: #66fcf1;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor del contenido central, con diseño en tarjeta */
+.container {
+  text-align: center;
+  background-color: #1f2833;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #45a29e;
+  max-width: 500px;
+}
+
+/* Margen superior para separar las opciones del texto */
+#options {
+  margin-top: 20px;
+}
+
+/* Estilo base de los botones de opción */
+.option-btn {
+  background-color: #45a29e;
+  color: #0b0c10;
+  border: none;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Cambio de color al pasar el cursor (hover) */
+.option-btn:hover {
+  background-color: #66fcf1;
+}
+
+/* Estilo del mensaje de retroalimentación */
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+}
