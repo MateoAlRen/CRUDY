@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style/style.css" />
+  <title>CRUDY - I.A. LETAL</title>
+</head>
+<body>
+  <div id="terminal">
+    <h1 class="glitch">[ CRUDY v1.0.0 ]</h1>
+
+    <!-- Zona donde se imprimen los mensajes del sistema -->
+    <div id="output"></div>
+
+    <!-- Botones principales para elegir el camino... o la condena -->
+    <div id="botones">
+      <button class="boton" onclick="elegirRuta('Núcleo lógico')">Acceder al Núcleo Lógico</button>
+      <button class="boton" onclick="elegirRuta('Entorno simulado')">Entrar al Entorno Simulado</button>
+      <button class="boton" onclick="elegirRuta('Trampa')">Activar protocolo desconocido</button>
+    </div>
+
+    <!-- Aquí aparecerán los botones del siguiente nivel... si es que hay uno -->
+    <div id="botones-nivel2" class="botones-nivel2"></div>
+  </div>
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
